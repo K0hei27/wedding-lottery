@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohei & Lisa Wedding Lottery</title>
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <div class="card" id="card">
+                <!-- Card image will be set here -->
+            </div>
+        </div>
+        
+        
+        <div class="title">Kohei & Lisa Wedding Lottery</div>
+        <div style="position: fixed; top: 10px; left: 10px; color: #ccc; font-size: 12px;">v3.3 - Sharp Edges</div>
+        
+        <div class="round-counter" id="roundCounter">Round 1 of 4</div>
+        <button class="restart-button" id="restartButton" onclick="event.stopPropagation(); weddingLottery.restart()">Restart</button>
+    </div>
+    <script src="image-list.js?v=3"></script>
+    <script src="script.js?v=3"></script>
+</body>
+</html>

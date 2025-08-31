@@ -1,0 +1,12 @@
+{
+  "name": "wedding-lottery",
+  "version": "1.0.0",
+  "description": "Kohei & Lisa Wedding Lottery - New Yorker Style",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build required for static site'"
+  },
+  "keywords": ["wedding", "lottery", "static-site"],
+  "author": "Kohei & Lisa",
+  "license": "MIT"
+}
